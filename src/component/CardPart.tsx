@@ -1,5 +1,6 @@
 import React from 'react';
 import img from "../assets/meeting2.webp"
+import { MdArrowOutward } from 'react-icons/md';
 const CardPart = () => {
   return (
     <div className='mt-5 h-[150vh] bg-black text-white w-full flex '>
@@ -27,7 +28,8 @@ const CardPart = () => {
             <h1>technological data to produce brand</h1>
 
          <h1>experiences that customers love our services.</h1>
-         <div className='mt-5  h-44 w-44 text-center border-white flex items-center justify-center rounded-full bg-black text-white hover:bg-white hover:text-black'><button>Explore Us</button></div>
+         <div className='mt-5  h-44 w-44 text-center border-white flex items-center justify-center rounded-full bg-black text-white hover:bg-white hover:text-black'><button>Explore Us</button>
+         <MdArrowOutward /></div>
          </div>
       </div>
       </div>
