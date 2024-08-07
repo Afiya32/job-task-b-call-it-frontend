@@ -48,7 +48,7 @@ const TaxtBanner: React.FC = () => {
       </div>
       {/* banner part */}
       <div className="absolute -m-5  flex justify-center items-center w-full"> 
-        <div className="w-1/4">
+        <div data-aos="fade-up" className="w-1/4">
            <img src={capsule} alt="img" />
         </div>
         <div className="w-3/4">

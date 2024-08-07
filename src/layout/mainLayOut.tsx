@@ -15,7 +15,7 @@ const MainLayOut = () => {
     <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
     <div className="drawer-content flex flex-col">
       {/* Navbar */}
-      <div className="navbar justify-center font-semibold items-center bg-white text-black w-full">
+      <div className="sticky top-0 z-10 navbar justify-center font-semibold items-center bg-white text-black w-full">
        
         <div className="mx-2 mt-2 flex-1 px-2"><img src={logo} alt="logo" /></div>
         <div className="hidden flex-none lg:block">

@@ -1,5 +1,7 @@
 
 import Brand from "../component/Brand";
+import CardPart from "../component/CardPart";
+import Services from "../component/Services";
 import TaxtBanner from "../component/taxtBanner";
 
 const Hompage = () => {
@@ -9,6 +11,10 @@ const Hompage = () => {
      <div className="mt-80">
         <Brand/>
       </div>
+      <div>
+        <CardPart/>
+      </div>
+      <div><Services/></div>
     </div>
   );
 };
