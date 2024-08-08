@@ -9,6 +9,9 @@ import c1 from "../assets/c1.jpg"
 import c2 from "../assets/c2.jpg"
 import c3 from "../assets/c3.jpg"
 import c4 from "../assets/c4.jpg"
+import CardPart2 from "../component/CardPart2";
+import JaurnalPart from "../component/JaurnalPart";
+import Footer from "../component/Footer";
 
 const images=[c1,c2,c3,c4]
 
@@ -24,9 +27,18 @@ const Hompage = () => {
       </div>
       <div><Services/></div>
       <div><Slider/></div>
-      <div>
+      <div className="mt-5">
         <HorizontalScroll images={images}/>
       </div>
+      <div className="mt-2">
+        <CardPart2/>
+      </div>
+      <div className="mt-5">
+        <JaurnalPart/>
+      </div>
+     <div className="mt-96">
+      <Footer/>
+     </div>
     </div>
   );
 };

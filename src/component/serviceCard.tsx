@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdArrowOutward } from "react-icons/md";
+
 interface Product {
   name: string;
   brand: string;
@@ -19,6 +20,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ product }) => {
     <div className='flex w-3/4 mx-auto h-72 justify-between mt-5 items-center border p-4'>
       <img src={product.image} alt={product.name} className='w-1/4 h-full object-cover' />
       <div className='text-left ml-16'>
+      {/* <MouseMoveImage image={product.image}/> */}
         <h1 className='font-bold text-3xl'>{product.name}</h1>
         <p className='text-sm text-gray-600'>{product.brand}</p>
         <p className='text-lg font-semibold'>${product.price}</p>
